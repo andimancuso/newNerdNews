@@ -47,10 +47,10 @@ function renderNews(articles) {
       '   <h2 class="title">' + article.title + '</h2>' +
       '   <h3>By ' + article.author + '</h3>' +
       '   <p> ' + article.description + '</p>' +
-      '   <a href="' + article.urlToImage + '" target="_blank" class="readmore"><p>Read More</p></a>' +
+      '   <a href="' + article.url + '" target="_blank" class="readmore"><p>Read More</p></a>' +
       ' </div>' +
       ' <div class="share">' +
-      '   <img class="storyimage" src="' + article.url + '" />' +
+      '   <img class="storyimage" src="' + article.urlToImage + '" />' +
       '   <button type="button" class="tweet" id="tweet ' + index + '">' +
       '   <i class="fa fa-twitter" aria-hidden="true"></i>Tweet This</button>' +
       ' </div>' +

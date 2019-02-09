@@ -5,6 +5,7 @@ body {
   background-color: #b8d4b3;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
@@ -73,7 +74,7 @@ button:focus {
   min-height: 250px;
   border-bottom: solid 1px #007328;
   background-color: #ffffff;
-  opacity: .70;
+  opacity: .75;
 }
 
 .article {
